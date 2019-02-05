@@ -9,6 +9,7 @@ use Illuminate\Database\Query\Builder;
 
 trait Caching
 {
+    //Test!
     protected $isCachable = true;
 
     public function cache(array $tags = [])
